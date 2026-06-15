@@ -1,7 +1,7 @@
-# Lunar Surface Navigation Simulator
+# Lunar Surface Optical Navigation Simulator
 
 ## Requirements
-- Unreal Engine 5.5+
+- Unreal Engine 5.7+
 - Git LFS installed
 
 ## Required Plugins (install via Fab/Marketplace)
@@ -20,11 +20,11 @@ Download and place in Content/CustomBuilds/SPICE/kernals/Lunar/:
 - moon_de440_250416.tf — https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/
 
 ## Python Requirements
-pip install numpy pillow spiceypy
+pip install numpy pillow spiceypy scipy osgeo pyvista
 
 ## Setup Steps
 1. Clone the repository
-2. Install UE5 5.5+
+2. Install UE5 5.7+
 3. Install required plugins via Fab
 4. Download SPICE kernels
 5. Open LunarSurfaceSim.uproject
