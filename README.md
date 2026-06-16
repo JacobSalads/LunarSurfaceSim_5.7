@@ -1,5 +1,7 @@
 # Lunar Surface Optical Navigation Simulator
 
+![Cinematic1](docs/images/Picture1.png)
+
 ## Requirements
 - Unreal Engine 5.7+
 - Git LFS installed
@@ -25,6 +27,13 @@ pip install numpy pillow spiceypy scipy osgeo pyvista
 ## Setup Steps
 1. Clone the repository
 2. Install UE5 5.7+
-3. Install required plugins via Fab
+3. Install required plugins via Epic Games Fab
 4. Download SPICE kernels
 5. Open LunarSurfaceSim.uproject
+
+## Results
+
+<p align="center">
+  <img src="docs/images/Picture3.png" width="600"><br>
+  <em>Horizon detection from UE5 rendered scene</em>
+</p>
